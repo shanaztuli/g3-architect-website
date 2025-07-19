@@ -190,6 +190,14 @@ padding-left: 21px;
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+footer{
+    border: none;
+    text-align: center;
+    margin: 130px 240px;
+    padding: 39px 210px;
+    background-color: antiquewhite;
+    font-size: 1.25rem;
+}
 /* responsive media quary */
 @media screen and (max-width:576px){
     .navbar,
@@ -216,6 +224,11 @@ padding-left: 21px;
         margin-top: 20px;
         margin-left: 20px;
     }
+    footer{
+margin-left: 0px;
+        margin-top: 50px;
+
+    }
     
 }
 /* mediam size devise */
@@ -226,9 +239,11 @@ padding-left: 21px;
     }
     
     
-    .out-features{
+    .out-features,footer{
         margin: 50px auto;
     }
+    footer{ padding: 10px;
+    margin-right: 10px;}
     .sponsor-companies,.facts-container{
         grid-template-columns: repeat(2,1fr);
         gap: 50px;
