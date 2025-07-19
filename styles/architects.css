@@ -108,6 +108,28 @@ font-weight: 500;
 #quick-list{
     font-weight: 500;
 }
+/* features section related styles */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+border-left:5px solid #FF900E;
+padding-left: 21px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    gap: 20px;
+}
+.feature-card .feature-title{
+
+    font-weight: 600;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 20px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* facts related styles */
 .facts-container{
     display: grid;
